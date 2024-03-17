@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vigenere Cipher Kelompok 4</title>
+</head>
+<body>
+    <!-- <ul class="nav">
+        <li><a href="#about-me">Festo</a></li>
+        <li><a href="#portofolio">Trivena</a></li>
+        <li><a href="#contact-us">Eli</a></li>
+    </ul> -->
+    <div class="container">
+        <h1>Vigenere Cipher Kelompok 4</h1>
+        <label for="plaintext"><b>Plain Text:</b></label>
+        <input type="text" id="plaintext" placeholder="Enter text">
+
+        <label for="key"><b>Key:</b></label>
+        <input type="text" id="key" placeholder="Enter key">
+
+        <button onclick="encrypt()">Enkripsi</button>
+        <button onclick="decrypt()">Dekripsi</button>
+
+        <label for="result"><b>Hasil:</b></label>
+        <textarea id="result" readonly></textarea>
+    </div>
+    <!-- <div class="box-nama">
+        <h3>Anggota Kelompok
+            <ul>
+                <li>Dominikus Alfesto Abulat</li>
+                <li>Trivena Missa</li>
+                <li>Elly Bay Bira</li>
+            </ul>
+        </h1>
+    </div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
